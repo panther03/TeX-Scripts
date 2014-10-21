@@ -1,0 +1,381 @@
+These shell two shell scripts put LaTeX packages into your Debian Linux system. There are two though, and they have different purposes.
+
+1. TeXAddPackageOLD.sh: This script assumes you already have the package zip file. Once you do, when you run it it provides you with two prompts: what directory the LaTeX package zip file is in, and what it is called (excluding the file extension name.) Then, it installs the package on the LaTeX system. 
+
+WARNINGS:
+
+Do not use any relative locations, like ~/Documents.
+File must be in .zip format.
+
+
+EXAMPLE:
+
+Welcome to the LaTeX package adder.
+Where is this .zip package located?
+/home/jdc
+What is this .zip package called?
+hyperref
+Archive:  hyperref.zip
+   creating: hyperref/doc/
+ extracting: hyperref/doc/cmmi10-22.gif  
+  inflating: hyperref/doc/cmsy10-21.gif  
+  inflating: hyperref/doc/fdl.tex    
+  inflating: hyperref/doc/manual.css  
+  inflating: hyperref/doc/manual.html  
+  inflating: hyperref/doc/manual.pdf  
+  inflating: hyperref/doc/manual.tex  
+  inflating: hyperref/doc/manual2.html  
+  inflating: hyperref/doc/manual3.html  
+  inflating: hyperref/doc/options.pdf  
+  inflating: hyperref/doc/options.tex  
+  inflating: hyperref/doc/paper.pdf  
+  inflating: hyperref/doc/slides.pdf  
+  inflating: hyperref/doc/spell.dict  
+   creating: hyperref/test/
+  inflating: hyperref/test/phys1.jpg  
+  inflating: hyperref/test/Makefile  
+  inflating: hyperref/test/bit.tex   
+  inflating: hyperref/test/hog.eps   
+  inflating: hyperref/test/hog.pdf   
+  inflating: hyperref/test/test-bm-pu-licr.tex  
+  inflating: hyperref/test/phys2.jpg  
+  inflating: hyperref/test/picture.eps  
+  inflating: hyperref/test/picture.pdf  
+  inflating: hyperref/test/picture.png  
+  inflating: hyperref/test/testbookmark.tex  
+  inflating: hyperref/test/test0.tex  
+  inflating: hyperref/test/test1.tex  
+  inflating: hyperref/test/test2.tex  
+  inflating: hyperref/test/test3.tex  
+  inflating: hyperref/test/test4.tex  
+  inflating: hyperref/test/test6.tex  
+  inflating: hyperref/test/test7.tex  
+  inflating: hyperref/test/test8.tex  
+  inflating: hyperref/test/testams.tex  
+  inflating: hyperref/test/testbib.bbl  
+  inflating: hyperref/test/testbib.bib  
+  inflating: hyperref/test/testbib.tex  
+  inflating: hyperref/test/testbmgl.tex  
+  inflating: hyperref/test/testbmu.tex  
+  inflating: hyperref/test/testslide.tex  
+  inflating: hyperref/test/testfor2.tex  
+  inflating: hyperref/test/testform.tex  
+  inflating: hyperref/test/testnb.tex  
+  inflating: hyperref/test/testoz.tex  
+  inflating: hyperref/test/testurl.bbl  
+  inflating: hyperref/test/testurl.bib  
+  inflating: hyperref/test/testurl.tex  
+  inflating: hyperref/ChangeLog.pdf  
+  inflating: hyperref/ChangeLog      
+  inflating: hyperref/README.pdf     
+  inflating: hyperref/README         
+replace hyperref/minitoc-hyper.sty? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: hyperref/minitoc-hyper.sty  
+  inflating: hyperref/backref.dtx    
+  inflating: hyperref/backref.pdf    
+  inflating: hyperref/bmhydoc.sty    
+replace hyperref/hylatex.ltx? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: hyperref/hylatex.ltx    
+  inflating: hyperref/hyperref.dtx   
+  inflating: hyperref/hyperref.ins   
+  inflating: hyperref/hyperref.pdf   
+  inflating: hyperref/manifest.txt   
+replace hyperref/ntheorem-hyper.sty? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: hyperref/ntheorem-hyper.sty  
+  inflating: hyperref/nameref.dtx    
+  inflating: hyperref/nameref.pdf    
+replace hyperref/xr-hyper.sty? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: hyperref/xr-hyper.sty   
+  inflating: hyperref/psdmapshortnames.pl  
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./hyperref.ins
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+Utility: `docstrip' 2.5d <2005/07/29>
+English documentation    <1999/03/31>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./hyperref.ins
+
+Generating file(s) ./hyperref.drv ./hycheck.tex ./backref.drv ./nameref.drv ./b
+ackref.sty ./nameref.sty ./hyperref.sty ./hypertex.def ./pdfmark.def ./hvtexmrk
+.def ./htexture.def ./hdvipson.def ./hdvips.def ./hpdftex.def ./hdviwind.def ./
+htex4ht.def ./htex4ht.cfg ./hvtex.def ./hvtexhtm.def ./hdvipdfm.def ./hxetex.de
+f ./pd1enc.def ./puenc.def ./puvnenc.def ./puarenc.def ./psdextra.def ./nohyper
+ref.sty 
+
+Processing file hyperref.dtx (driver) -> hyperref.drv
+                             (check) -> hycheck.tex
+                             (package) -> hyperref.sty
+                             (hypertex) -> hypertex.def
+                             (pdfmark,pdfmarkbase,pdfform,outlines) -> pdfmark.
+def
+                             (vtexpdfmark) -> hvtexmrk.def
+                             (textures) -> htexture.def
+                             (dvipsone) -> hdvipson.def
+                             (dvips) -> hdvips.def
+                             (pdftex,pdfform,outlines) -> hpdftex.def
+                             (dviwindo,pdfmarkbase) -> hdviwind.def
+                             (tex4ht) -> htex4ht.def
+                             (tex4htcfg) -> htex4ht.cfg
+                             (vtex,outlines) -> hvtex.def
+                             (vtexhtml) -> hvtexhtm.def
+                             (dvipdfm,pdfform,outlines) -> hdvipdfm.def
+File hyperref.dtx ended by \endinput.
+Lines  processed: 27553
+Comments removed: 8311
+Comments  passed: 22
+Codelines passed: 18999
+
+
+Processing file backref.dtx (driver) -> backref.drv
+                            (package) -> backref.sty
+File backref.dtx ended by \endinput.
+Lines  processed: 944
+Comments removed: 460
+Comments  passed: 21
+Codelines passed: 454
+
+
+Processing file nameref.dtx (driver) -> nameref.drv
+                            (package) -> nameref.sty
+File nameref.dtx ended by \endinput.
+Lines  processed: 898
+Comments removed: 346
+Comments  passed: 22
+Codelines passed: 521
+
+
+Processing file hyperref.dtx (xetex,pdfform,outlines) -> hxetex.def
+                             (pd1enc) -> pd1enc.def
+                             (puenc) -> puenc.def
+                             (puvnenc) -> puvnenc.def
+                             (puarenc) -> puarenc.def
+                             (psdextra) -> psdextra.def
+                             (nohyperref) -> nohyperref.sty
+File hyperref.dtx ended by \endinput.
+Lines  processed: 27553
+Comments removed: 8311
+Comments  passed: 22
+Codelines passed: 18999
+
+***************************************************************
+*
+*  To finish the installation you have to copy the files 
+*
+*  *.sty, *.cfg and *.def into a directory searched by TeX
+*
+*  (TDS directory: texmf/tex/latex/hyperref/).
+*
+***************************************************************
+)
+Overall statistics:
+Files  processed: 4
+Lines  processed: 56948
+Comments removed: 17428
+Comments  passed: 87
+Codelines passed: 38973
+ ) )
+No pages of output.
+Transcript written on hyperref.log.
+texhash: Updating /usr/local/share/texmf/ls-R... 
+texhash: Updating /var/lib/texmf/ls-R-TEXLIVEDIST... 
+texhash: Updating /var/lib/texmf/ls-R-TEXMFMAIN... 
+texhash: Updating /var/lib/texmf/ls-R... 
+texhash: Done.
+
+ TeXAddPackageFTP.sh: This script assumes nothing besides an installation of TeXLive. All you have to enter is the package name and it will do the downloading and installing for you.
+
+WARNINGS: (None)
+
+EXAMPLE:
+
+Welcome to the LaTeX package fetcher.
+What is this .zip package called?
+caption
+--2014-09-06 13:59:48--  ftp://mirrors.ucr.ac.cr/CTAN/macros/latex/contrib/caption.zip
+           => ‘caption.zip’
+Resolving mirrors.ucr.ac.cr (mirrors.ucr.ac.cr)... 163.178.174.25
+Connecting to mirrors.ucr.ac.cr (mirrors.ucr.ac.cr)|163.178.174.25|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /CTAN/macros/latex/contrib ... done.
+==> SIZE caption.zip ... 2121072
+==> PASV ... done.    ==> RETR caption.zip ... done.
+Length: 2121072 (2.0M) (unauthoritative)
+
+100%[======================================>] 2,121,072    350KB/s   in 6.8s   
+
+2014-09-06 13:59:56 (303 KB/s) - ‘caption.zip’ saved [2121072]
+
+Archive:  caption.zip
+  inflating: caption/totalcount.dtx  
+  inflating: caption/newfloat.dtx    
+  inflating: caption/subcaption.dtx  
+  inflating: caption/ltcaption.dtx   
+  inflating: caption/bicaption.dtx   
+  inflating: caption/caption3.dtx    
+  inflating: caption/caption2.dtx    
+  inflating: caption/caption.dtx     
+  inflating: caption/totalcount.pdf  
+  inflating: caption/subcaption.pdf  
+  inflating: caption/newfloat.pdf    
+  inflating: caption/ltcaption.pdf   
+  inflating: caption/caption-rus.pdf  
+  inflating: caption/caption-eng.pdf  
+  inflating: caption/caption-deu.pdf  
+  inflating: caption/bicaption.pdf   
+  inflating: caption/SUMMARY         
+  inflating: caption/CHANGELOG       
+  inflating: caption/README          
+  inflating: caption/elephant.eps    
+  inflating: caption/cat.eps         
+  inflating: caption/caption-rus.tex  
+  inflating: caption/caption-eng.tex  
+  inflating: caption/caption-deu.tex  
+  inflating: caption/caption.ins     
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian)
+ restricted \write18 enabled.
+entering extended mode
+(./caption.ins
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+Utility: `docstrip' 2.5d <2005/07/29>
+English documentation    <1999/03/31>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./caption.ins
+
+Generating file(s) ./caption.sty 
+
+Processing file caption.dtx (package) -> caption.sty
+File caption.dtx ended by \endinput.
+Lines  processed: 4726
+Comments removed: 2963
+Comments  passed: 5
+Codelines passed: 1754
+
+
+Generating file(s) ./caption2.sty 
+
+Processing file caption2.dtx (package) -> caption2.sty
+File caption2.dtx ended by \endinput.
+Lines  processed: 1388
+Comments removed: 952
+Comments  passed: 0
+Codelines passed: 431
+
+
+Generating file(s) ./caption3.sty 
+
+Processing file caption3.dtx (package) -> caption3.sty
+File caption3.dtx ended by \endinput.
+Lines  processed: 3874
+Comments removed: 2236
+Comments  passed: 1
+Codelines passed: 1633
+
+
+Generating file(s) ./bicaption.sty 
+
+Processing file bicaption.dtx (package) -> bicaption.sty
+File bicaption.dtx ended by \endinput.
+Lines  processed: 1257
+Comments removed: 998
+Comments  passed: 0
+Codelines passed: 255
+
+
+Generating file(s) ./ltcaption.sty 
+
+Processing file ltcaption.dtx (package) -> ltcaption.sty
+File ltcaption.dtx ended by \endinput.
+Lines  processed: 868
+Comments removed: 674
+Comments  passed: 0
+Codelines passed: 190
+
+
+Generating file(s) ./subcaption.sty 
+
+Processing file subcaption.dtx (package) -> subcaption.sty
+File subcaption.dtx ended by \endinput.
+Lines  processed: 1140
+Comments removed: 1006
+Comments  passed: 0
+Codelines passed: 130
+
+
+Generating file(s) ./newfloat.sty 
+
+Processing file newfloat.dtx (package) -> newfloat.sty
+File newfloat.dtx ended by \endinput.
+Lines  processed: 1820
+Comments removed: 1092
+Comments  passed: 2
+Codelines passed: 722
+
+
+Generating file(s) ./totalcount.sty 
+
+Processing file totalcount.dtx (package) -> totalcount.sty
+File totalcount.dtx ended by \endinput.
+Lines  processed: 387
+Comments removed: 288
+Comments  passed: 0
+Codelines passed: 95
+
+***********************************************************
+*
+* To finish the installation you have to move the files
+* `caption.sty', `caption2.sty', 'caption3.sty',
+* `bicaption.sty', `ltcaption.sty', `subcaption.sty',
+* `newfloat.sty', and `totalcount.sty'
+* into a directory searched by TeX.
+*
+* To produce the documentation run the file
+* `caption-eng.tex' (English version) or `caption-rus.tex'
+* (Russian version) or `caption-deu.tex' (German version)
+* through LaTeX.
+*
+***********************************************************
+)
+Overall statistics:
+Files  processed: 8
+Lines  processed: 15460
+Comments removed: 10209
+Comments  passed: 8
+Codelines passed: 5210
+ ) )
+No pages of output.
+Transcript written on caption.log.
+texhash: Updating /usr/local/share/texmf/ls-R... 
+texhash: Updating /var/lib/texmf/ls-R-TEXLIVEDIST... 
+texhash: Updating /var/lib/texmf/ls-R-TEXMFMAIN... 
+texhash: Updating /var/lib/texmf/ls-R... 
+texhash: Done.
+
+
+
+
+
