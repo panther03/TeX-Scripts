@@ -1,0 +1,19 @@
+This is a script that simply removes a package from LaTeX. Only an installation of TeXLive is required.
+
+WARNINGS:
+
+-- void --
+
+EXAMPLES:
+
+Welcome to the LaTeX package remover.
+What is this package called?
+xcolor
+[sudo] password for jdc: 
+texhash: Updating /usr/local/share/texmf/ls-R... 
+texhash: Updating /var/lib/texmf/ls-R-TEXLIVEDIST... 
+texhash: Updating /var/lib/texmf/ls-R-TEXMFMAIN... 
+texhash: Updating /var/lib/texmf/ls-R... 
+texhash: Done.
+
+

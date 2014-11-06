@@ -1,8 +1,8 @@
-TeXCleanUpZips is a script that... wait for it... cleans up the zips from the working package directory of LaTeX. It assumes only an installation of TeXLive.
+TeXCleanUpZips is a script that cleans up the zips from the working package directory of LaTeX. It assumes only an installation of TeXLive.
 
 WARNINGS:
 
-Make sure that no important zips are in that folder (not sure exactly why you might put important zips there and not in your home folder.)
+None (Just make sure that no important zips are in that folder :).)
 
 EXAMPLES:
 

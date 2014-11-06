@@ -1,0 +1,61 @@
+This script searches the LaTeX system for a package. On failure of finding, asks to list packages.
+
+WARNINGS:
+
+-- void --
+
+EXAMPLES:
+
+Welcome to the LaTeX Package 'existence check' script.
+What package do you want me to find?
+xcolor
+No, it isn't there. Would you like me to list the packages?
+yes
+ae	      l3experimental  pst-bspline	 pstricks-add
+amscls	      l3kernel	      pst-calendar	 pst-rubans
+amsfonts      l3packages      pst-circ		 pst-sigsys
+amsmath       latexconfig     pst-coil		 pst-slpe
+anysize       lipsum	      pst-cox		 pst-solarsystem
+auto-pst-pdf  listings	      pst-dbicons	 pst-solides3d
+avantgar      ltxmisc	      pst-diffraction	 pst-soroban
+babelbib      makeplot	      pst-electricfield  pst-spectra
+base	      marvosym	      pst-eps		 pst-stru
+bclogo	      mdwtools	      pst-eucl		 pst-text
+beamer	      memoir	      pst-exa		 pst-thick
+bookman       metalogo	      pst-fill		 pst-tools
+booktabs      mflogo	      pst-fit		 pst-tree
+cancel	      mfnfss	      pst-fr3d		 pst-tvz
+caption       mh	      pst-fractal	 pst-uml
+carlisle      microtype       pst-fun		 pst-vectorian
+cases	      ms	      pst-func		 pst-vowel
+cell	      multido	      pst-gantt		 pst-vue3d
+cite	      nag	      pst-geo		 pxfonts
+cmap	      natbib	      pst-ghsb		 rcs
+colortbl      ncntrsbk	      pst-gr3d		 rotating
+cool	      ntgclass	      pst-grad		 sansmath
+courier       oberdiek	      pst-infixplot	 section
+crop	      palatino	      pst-jtree		 sectsty
+ctable	      paralist	      pst-knot		 seminar
+dvipdfmx-def  paralist.zip.1  pst-labo		 sepnum
+eso-pic       parskip	      pst-layout	 setspace
+etex-pkg      pdfpages	      pst-lens		 subfig
+euler	      pdftex-def      pst-light3d	 symbol
+euro	      pdftricks       pst-magneticfield  texput.log
+eurosym       pdftricks2      pst-math		 textcase
+extsizes      powerdot	      pst-mirror	 times
+fancybox      psbao	      pst-node		 tocbibind
+fancyhdr      psfrag	      pst-ob3d		 tocloft
+fancyref      pslatex	      pst-ode		 tools
+fancyvrb      psnfss	      pst-optexp	 txfonts
+fix2col       pspicture       pst-optic		 typehtml
+float	      pst-2dplot      pst-osci		 uml
+fontspec      pst-3d	      pst-ovl		 underscore
+fp	      pst-3dplot      pst-pad		 url
+geometry      pst-abspos      pst-pdgr		 vocaltract
+graphics      pst-am	      pst-platon	 wasysym
+helvetic      pst-asr	      pst-plot		 xkeyval
+hyperref      pst-bar	      pst-poly		 zapfchan
+index	      pst-barcode     pst-pulley	 zapfding
+jknapltx      pst-bezier      pst-qtree
+koma-script   pst-blur	      pstricks
+
